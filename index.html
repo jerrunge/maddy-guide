@@ -133,6 +133,9 @@
   .holditem em{font-style:italic; color:var(--ink)}
   .jr-aside{text-align:center; font-family:var(--hand); font-size:19px; color:var(--ink-soft); line-height:1.5; padding:14px 10px 2px}
   .jr-aside .who{display:block; font-family:var(--display); font-size:12px; font-weight:600; letter-spacing:1px; text-transform:uppercase; color:var(--ink-dim); margin-top:8px}
+  /* who-it's-for population tags */
+  .tags{display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 4px}
+  .tag{font-size:14px; color:var(--ink-soft); background:var(--card); border:1px solid var(--line); border-radius:999px; padding:5px 13px}
 
   /* feature list rows */
   .feat{display:flex; gap:14px; padding:14px 0; border-bottom:1px solid var(--line)}
@@ -199,7 +202,7 @@
   <div class="eyebrow">Welcome to the early circle</div>
   <h1>Maddy</h1>
   <p class="lede">Maddy makes daily life feel like living.</p>
-  <p class="sub">Built with an AuDHDer, for AuDHD adults and teens and the people who love them. You’re one of the first people to hold it. This is the warm walkthrough.</p>
+  <p class="sub">Built with an AuDHDer, for AuDHD+ minds and the people who love them. You’re one of the first to try it. Here’s the simple version of how it works.</p>
   <p class="sig">Built with consent. Named with love.</p>
 </header>
 
@@ -250,29 +253,52 @@
 
   <hr class="divider">
 
+  <!-- ============ WHO IT'S FOR ============ -->
+  <section class="avoid-break">
+    <div class="seclabel">Who it’s for</div>
+    <h2>Built with an AuDHDer, for AuDHD+ minds</h2>
+    <p class="lead">Maddy was made with an AuDHDer, for AuDHDers. That’s the heart of it. The name is hers.</p>
+    <p>It’s also for anyone whose brain has a hard time starting everyday things. Not because they don’t care. Because their brain runs on context, not willpower.</p>
+    <p>That’s the “+” in AuDHD+. The way Maddy works is built on research that helps a lot of different brains, including:</p>
+    <div class="tags">
+      <span class="tag">ADHD</span>
+      <span class="tag">Autism</span>
+      <span class="tag">Brain injury</span>
+      <span class="tag">Long COVID</span>
+      <span class="tag">Depression</span>
+      <span class="tag">Burnout</span>
+      <span class="tag">and more</span>
+    </div>
+    <div class="note">
+      <b>The honest version:</b> we built and tested Maddy with AuDHDers. The ideas behind it are known to help this wider group too. Whether it helps you is up to your own experience. The only way to find out is to try it.
+    </div>
+  </section>
+
+  <hr class="divider">
+
   <!-- ============ WHAT IS MADDY ============ -->
   <section class="avoid-break">
     <div class="seclabel">What you’re trying</div>
-    <h2>A companion for the days that don’t come with built-in structure</h2>
-    <p class="lead">AuDHD brains ride structured tasks well: travel, deadlines, the thing with a clear shape. Daily-living routines don’t come with that shape. Maddy is the scaffolding for those, the warm nudge for a tired Tuesday three weeks from now.</p>
+    <h2>A companion for the everyday stuff</h2>
+    <p class="lead">Some things push you to start on their own: a trip, a deadline, a meeting. Everyday things like showers, meals, and meds don’t. Maddy is the gentle nudge for those, on a plain Tuesday when starting feels hard.</p>
 
     <div class="grid three">
       <div class="card avoid-break">
         <h3>It shows up</h3>
-        <p class="dim">A daily check-in and a companion who’s glad you’re here. The app does the remembering so you don’t have to.</p>
+        <p class="dim">A daily hello, and a companion who’s glad you’re here. The app does the remembering so you don’t have to.</p>
       </div>
       <div class="card avoid-break">
         <h3>It adapts</h3>
-        <p class="dim">You tell Maddy how today actually feels. Your list changes to match your nervous system, not the other way around.</p>
+        <p class="dim">You tell Maddy how today feels. Your list changes to match you, not the other way around.</p>
       </div>
       <div class="card avoid-break">
         <h3>It rewards</h3>
-        <p class="dim">Real, immediate, configurable. Money, stars, screen time, whatever actually motivates. Paid out weekly by someone in your corner.</p>
+        <p class="dim">Real, and right away. Money, stars, screen time, whatever works for you. Paid out each week by someone in your corner.</p>
       </div>
     </div>
 
     <div class="note">
-      <b>One honest note up front.</b> Maddy doesn’t fix, cure, or manage anything. The capability is already yours. Maddy is the external structure that frees up the bandwidth so it can run. That’s the whole idea, and it’s what we’re testing.
+      <b>One honest note up front.</b> Maddy doesn’t fix, cure, or manage anything. You’re already capable. Maddy just adds the outside structure that frees you up to do the things. That’s the whole idea, and it’s what we’re testing.
     </div>
   </section>
 
@@ -282,7 +308,7 @@
   <section class="avoid-break">
     <div class="seclabel">How it’s shaped</div>
     <h2>Everyone sits in a circle</h2>
-    <p class="lead">A circle is one person Maddy shows up for, plus the people around them. Three kinds of seats, each sees a different amount on purpose.</p>
+    <p class="lead">A circle is one person Maddy is for, plus the people around them. There are three kinds of seats. Each one sees a different amount, on purpose.</p>
 
     <div class="card avoid-break">
       <div class="role">
@@ -332,7 +358,7 @@
     </ol>
 
     <div class="note warm">
-      <b>Two phones tell the fuller story.</b> Maddy is a two-person experience: one person doing their day, one person supporting. If you can, set it up across two devices (yours and a partner’s, or two of your own). One phone is completely fine too, you’ll just play both parts. We’ll show you how.
+      <b>Two phones tell the fuller story.</b> Maddy works best with two people: one doing their day, one supporting. If you can, use two phones (yours and a partner’s, or two of your own). One phone is fine too. You’ll just play both parts, and we’ll show you how.
     </div>
   </section>
 
@@ -394,7 +420,7 @@
     <p class="small dim">“I can’t right now” doesn’t fail your day. It opens a calmer, gentler version of the app and tells the people in your corner, softly, that today is heavy.</p>
 
     <h3 style="margin-top:26px">2 · Walk the path</h3>
-    <p>Your things for today show up as a short path of stones, with your companion beside the one that’s next. Tap a stone to complete it. A small celebration, and your rewards tick up. Want the full picture? Open <b>Everything</b> to see it all as a list or cards. Yesterday never follows you in. Every day starts clean.</p>
+    <p>Today’s things show up as a short path of stones, with your companion next to the one that’s up now. Tap a stone to finish it. You get a small celebration, and your rewards go up. Want to see it all? Open <b>Everything</b> for the full list. Yesterday never carries over. Every day starts fresh.</p>
 
     <h3 style="margin-top:26px">3 · Watch rewards add up</h3>
     <p>Rewards are real, immediate, and yours to configure. The caregiver picks what counts (money, stars, screen time, gems, whatever actually motivates) and sets a weekly goal. The app runs the rest, then the caregiver marks the goal reached and it celebrates and resets for a fresh week.</p>
@@ -530,8 +556,8 @@
 <div class="rainbow-bar"></div>
 
 <footer>
-  Maddy is built with an AuDHDer, for AuDHD adults and teens and the people who love them.<br>
-  It’s a daily-living companion, not a medical device. It doesn’t diagnose, treat, or cure.
+  Designed with an AuDHDer, for AuDHD+ minds. Helpful for anyone who needs a hand with daily living.<br>
+  Maddy is a daily-living companion, not a medical device. It doesn’t diagnose, treat, or cure.
 </footer>
 
 </body>
