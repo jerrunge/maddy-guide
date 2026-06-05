@@ -136,6 +136,12 @@
   /* who-it's-for population tags */
   .tags{display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 4px}
   .tag{font-size:14px; color:var(--ink-soft); background:var(--card); border:1px solid var(--line); border-radius:999px; padding:5px 13px}
+  /* contact buttons */
+  .send-row{display:flex; flex-wrap:wrap; gap:10px; margin:14px 0 2px}
+  .btn{display:inline-flex; align-items:center; gap:8px; font-family:var(--display); font-weight:600; font-size:15px; text-decoration:none; padding:11px 18px; border-radius:999px; border:1px solid var(--line)}
+  .btn.imsg{background:#1FA855; color:#fff; border-color:#1FA855}
+  .btn.mail{background:var(--card); color:var(--ink)}
+  .btn .bi{font-size:16px; line-height:1}
 
   /* feature list rows */
   .feat{display:flex; gap:14px; padding:14px 0; border-bottom:1px solid var(--line)}
@@ -497,7 +503,12 @@
       </div>
     </div>
 
-    <p style="margin-top:18px"><b>How to send it:</b> the easiest thing in the world. Text us as you go. Screenshots are gold (press the side button + volume up). If you hit a bug, tell us what you tapped, what you expected, and what happened instead. That’s plenty.</p>
+    <p style="margin-top:18px"><b>How to send it:</b> message us as you go, it&rsquo;s the easiest thing in the world. Screenshots are gold (press the side button + volume up together). If you hit a bug, just tell us what you tapped, what you expected, and what happened instead. That&rsquo;s plenty.</p>
+    <div class="send-row">
+      <a class="btn imsg" href="sms:+16505578474?&body=Hi!%20I%20am%20testing%20Maddy.%20Here%20is%20what%20I%20noticed:%20"><span class="bi">&#128172;</span> Message us</a>
+      <a class="btn mail" href="mailto:support@mymaddy.app?subject=Maddy%20beta%20feedback"><span class="bi">&#9993;</span> support@mymaddy.app</a>
+    </div>
+    <p class="small dim" style="margin-top:8px">Tap Message us to text us on your iPhone, or email if that&rsquo;s easier. Either is perfect.</p>
 
     <div class="note warm">
       <b>The most useful thing you can tell us is where you got confused.</b> If a screen lost you, that’s not your mistake, it’s ours to fix. Confusion is the signal we most want. And this is an early build, so rough edges are expected and welcome.
@@ -527,7 +538,7 @@
     <ul style="margin:0; padding-left:20px; color:var(--ink-soft)">
       <li style="margin-bottom:6px">Force-close Maddy (swipe up, flick the card away) and reopen it.</li>
       <li style="margin-bottom:6px">Still stuck? Sign out and back in.</li>
-      <li>Locked out completely? Text us. We can sort it from our side.</li>
+      <li>Locked out completely? Message us at (650) 557-8474 or email support@mymaddy.app. We can sort it from our side.</li>
     </ul>
   </section>
 
